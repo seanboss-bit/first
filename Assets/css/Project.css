@@ -1,0 +1,32 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: 0;
+  line-height: 0.6em;
+}
+/* style for heading */
+header {
+  background-color: black;
+  color: blanchedalmond;
+  padding: 20px;
+}
+/* style for container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* navigation bar styling */
+nav {
+  display: grid;
+  grid-gap: 26px;
+  grid-template-columns: repeat(3, auto);
+}
+/* styling for text */
+nav a{
+    color:  white;
+    text-decoration: none;
+}
